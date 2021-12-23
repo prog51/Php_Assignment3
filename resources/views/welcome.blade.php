@@ -10,13 +10,13 @@
    <div class="row col-md-12 h-100 justify-content-center align-items-center" >
          <div class="col-md-7 hom-banner p-5">
               <h1 class="display-4">Welcome to Ocean's 8 All Age School</h1>
-              <p class="lead">If your looking for a friend to adopt we have many kinds of interesting animals.</p>
+              <p class="lead">We provide the best education for your kids.</p>
                <hr class="my-4">
-               <p>If you want to give away your pet, you can do that here as well, just register and a free account will be created for you.</p>
+               <p>Be apart of our famiy, we your children we get a well rounded education</p>
                <p class="lead">
-                  <a class="btn btn-secondary btn-lg" href="view.php" role="button">FIND A PET</a>
+                  <a class="btn btn-secondary btn-lg" href="/contact" role="button">Contact Us</a>
 				  
-				  <a class="btn btn-warning btn-lg" href="register.php" role="button">GIVE AWAY YOUR PET</a>
+				  <a class="btn btn-warning btn-lg" href="/student/register" role="button">REGISTER</a>
                </p>
          </div>
 		 
@@ -94,7 +94,7 @@
 					  <div class="card-body">
 						<h3 class="card-title">Enrole today</h3>
 						<p class="card-text">Get a great start for your child education</p>
-						<a href="view.php" class="btn btn-primary">REGISTER TODAY</a>
+						<a href="/student/register" class="btn btn-primary">REGISTER TODAY</a>
 					  </div>
 					
 				</div>

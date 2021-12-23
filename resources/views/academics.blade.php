@@ -88,17 +88,17 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img class="d-block w-100" src="images/bonnie-kittle-MUcxe_wDurE-unsplash.jpg" alt="First slide">
+						<img class="d-block w-100" src="images/kuanish-reymbaev-nyuWugmjXis-unsplash.jpg" alt="First slide">
 						<div class="carousel-caption d-none d-md-block">
-							<h2>DON'T JUST ADOPT A PET!</h2>
-							<p>FIND AN ANIMAL FRIEND</p>
+							<h2>We make learning fun!</h2>
+							<p>GROUND BREAKING NEW WAYS OF LEARNING</p>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="images/chewy-gWzTum_yMCg-unsplash.jpg" alt="Second slide">
+						<img class="d-block w-100" src="images/cdc-GDokEYnOfnE-unsplash.jpg" alt="Second slide">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="images/baby-n-dog.jpg" alt="Third slide">
+						<img class="d-block w-100" src="images/cdc-UqTrGSohyCs-unsplash.jpg" alt="Third slide">
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

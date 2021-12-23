@@ -13,7 +13,7 @@
     </head>
     <body>
       <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">{{ config('app.name') }}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,31 +22,30 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about">About</a>
+                    <a class="nav-link text-white" href="/about">About</a>
                 </li>
 				 <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
+                    <a class="nav-link text-white" href="/contact">Contact</a>
                 </li>
 				 <li class="nav-item">
-                    <a class="nav-link" href="/academics">Academics</a>
+                    <a class="nav-link text-white" href="/academics">Academics</a>
                 </li>
 				<li class="nav-item">
-				    <a class="nav-link" href="/student/register">Register</a>
+				    <a class="nav-link text-white" href="/student/register">Register</a>
 				</li>
        
           </ul>
       <ul class="navbar-nav ml-auto">
 	        @auth
-			 <li class="nav-item">Welcome, {{auth()->user()->name}} </li>
-             <li class="nav-item"> <a class="nav-link" href ="/admin">View dashboard</a></li>
-			 <li class="nav-item"> <a class="nav-link" href ="/logout">Logout</a></li>
+             <li class="nav-item "> <a class="nav-link text-white" href ="/admin">Welcome, {{auth()->user()->name}} - View dashboard</a></li>
+			 <li class="nav-item"> <a class="nav-link text-white btn btn-success" href ="/logout">Logout</a></li>
 			 @endauth
 			 
 			@guest
-			  <li class="nav-item"><a class="nav-link" href ="/login">Login</a></li>
+			  <li class="nav-item"><a class="nav-link text-white btn btn-success" href ="/login">Login</a></li>
 			@endguest
           </ul>
 

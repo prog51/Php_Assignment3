@@ -45,6 +45,10 @@
                                 <li class="nav-item">
                                     <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Action</a>
                                 </li>
+								
+								 <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#doc" role="tab" aria-controls="doc" aria-selected="false">Document</a>
+                                </li>
                             </ul>
                         </div>
 						
@@ -65,18 +69,33 @@
 											<span>
 											  <b>Full name: </b> {{$std->fname . " " . $std->lname}}
 											</span><br/>
-											
-											<span>
-											   
-											</span><br/>
-											
+																					
 											<span>
 											  <b>Email: </b> {{$std->emailadress}}
 											</span><br/>
+											
+											<span>
+											  <b>Age: </b> {{$std->age}}
+											</span><br/>
+											
+											<span>
+											  <b>Gender: </b> {{$std->gender}}
+											</span><br/>
+											
+											<span>
+											  <b>Address: </b> {{$std->address}}
+											</span><br/>
+											
+																					
+											<span>
+											  <b>Status: </b> {{$std->status}}
+											</span><br/>
+											
+											
                                      </div>	
-
-                                     <a href="/uploads/{{$std->documents}}"><img src="/images/pdf.png" width="50" height="70"/></a>									 
-						 </div>			 
+                                     <br/>
+									 
+						 </div>	 
 
 
      
@@ -114,6 +133,16 @@
 					                    </form>
 										
                             </div>
+							
+							<div class="tab-pane fade" id="doc" role="tabpanel" aria-labelledby="profile-tab">
+							     
+                                  <h5 class="text-success">
+								     Student Certificates
+								  </h5>
+								 <div>
+                                       <a href="/uploads/{{$std->documents}}"><img src="/images/pdf.png" width="50" height="70"/></a>									 
+						          </div>	
+							</div>
                         </div>
                     </div>
                     
