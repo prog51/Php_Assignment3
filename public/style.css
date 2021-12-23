@@ -1,0 +1,28 @@
+.fixed-bottom
+{
+	margin-top:150px;
+}
+
+.home-img-below-header
+  {
+	background-image:url("images/sigmund-OV44gxH71DU-unsplash.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	padding:50px 50px;
+  }
+  
+ .about-para
+ {
+	 padding-left:150px;
+ }
+ 
+ .home-banner
+ {
+	 background-color:#006994;
+ }
+ html, body
+ {
+	   background-color:#fff;
+	   padding:0;
+	   margin:0
+ }
